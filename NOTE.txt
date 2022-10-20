@@ -6,17 +6,107 @@ Phân chia code 500 bài theo từng phần
     Lâm: 15, 39, 63, 87, 111, 135
     Ninh: 21, 45, 69, 93, 117, 141
 
+2. Backtracking
+    Hiền: 3
+    Hưng: 9
+    Lâm: 15
+    Ninh: 15
 
+3. Binary
+    Hiền: 3, 27
+    Hưng: 9, 33
+    Lâm: 15
+    Ninh: 21
 
+4. Binary Tree
+    Hiền: 3, 27, 51
+    Hưng: 9, 33
+    Lâm: 15, 39
+    Ninh: 21, 45
 
+5. BST
+    Hiền: 3
+    Hưng: 9
+    Lâm: 15
+    Ninh: 15
 
+6. Divide & Conquer
+    Hiền: 3, 27
+    Hưng: 9
+    Lâm: 15
+    Ninh: 21
 
+7. Dynamic Programming
+    Hiền: 3, 27, 51
+    Hưng: 9, 33, 57
+    Lâm: 15, 39
+    Ninh: 21, 45
 
+8. Graph
+    Hiền: 3, 27
+    Hưng: 9, 33
+    Lâm: 15
+    Ninh: 21
 
+9. Heap
+    Hiền: 3
+    Hưng: 9
+    Lâm: 15
+    Ninh: 15
 
+10. Linked List
+    Hiền: 3, 27
+    Hưng: 9, 33
+    Lâm: 15
+    Ninh: 21
 
+11. Matrix
+    Hiền: 3, 27
+    Hưng: 9, 33
+    Lâm: 15, 39
+    Ninh: 21, 39
 
+12. Queue
+    Hiền: 3
+    Hưng: 9
+    Lâm: 15
+    Ninh: 21
 
+13. Sorting
+    Hiền: 3, 27
+    Hưng: 9, 33
+    Lâm: 15, 39
+    Ninh: 21, 45
+
+14. Stack 
+    Hiền: 3
+    Hưng: 9
+    Lâm: 15
+    Ninh: 15
+
+15. String
+    Hiền: 3, 27, 51, 75
+    Hưng: 9, 33, 57, 81
+    Lâm: 15, 39, 63
+    Ninh: 21, 45, 69
+
+16. Trie
+    Hiền: 3
+    Hưng: 9
+    Lâm: 
+    Ninh: 
+
+17: Greedy
+    Hiền: 3
+    Hưng: 
+    Lâm: 
+    Ninh: 
+
+18. Puzzles
+    Hiền: 3, 27
+    Hưng: 9
+    Lâm: 15
+    Ninh: 21
 
 
 
