@@ -9,6 +9,9 @@
         "regex": "cpp",
         "utility": "cpp",
         "valarray": "cpp",
-        "stack": "cpp"
+        "stack": "cpp",
+        "deque": "cpp",
+        "vector": "cpp",
+        "xstring": "cpp"
     }
 }
