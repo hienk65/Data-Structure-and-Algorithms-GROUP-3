@@ -17,7 +17,7 @@ void reArrange(int A[], int n)
         if (i + 1 < n && A[i + 1] > A[i]) {swap(A, i + 1, i);}
     }
 }
- 
+
 int main()
 {
     int A[] = { 9, 6, 8, 3, 7 };
