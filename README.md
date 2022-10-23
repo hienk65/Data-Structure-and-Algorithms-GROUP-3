@@ -4,6 +4,8 @@
  LINK ASSIGNMENT: https://github.com/bollwarm/DataStructuresAlgorithms
 
  ASSIGNMENT WEEK 2:
+ 
+
  Bài 1: Tìm độ phức tạp thuật toán theo Big-O Notation
 1/ T(n) = T(n/2) + 1;
 T(n) = 0(log(2)n)
