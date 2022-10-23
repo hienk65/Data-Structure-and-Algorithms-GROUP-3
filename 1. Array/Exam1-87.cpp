@@ -4,7 +4,7 @@ using namespace std;
 struct inter {
 	int start, end;
 };
-
+stack<inter> s;
 bool compareInter(inter i1, inter i2){return (i1.start < i2.start);} 
 void mergeInter(inter arr[], int n)
 {
