@@ -18,7 +18,8 @@ T(n) = 0(nlog(2)n)
 
 3/ T(n) = 3T(n/2) + logn;
 
-T(n) = 0(n^(log(3)n/log(2)n)
+T(n) = 0(n^(log(3)/log(2))
+
 
  Bài 2: Phân tích thuật toán với cấu trúc Array trong link Git theo các nhóm 
  
