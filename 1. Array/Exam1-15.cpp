@@ -1,3 +1,7 @@
+/*
+Given an integer array, rearrange it such that every second element becomes greater than its left and right elements. 
+Assume no duplicate elements are present in the array.
+*/
 #include <iostream>
 using namespace std;
  
@@ -20,7 +24,7 @@ void reArrange(int A[], int n)
 
 int main()
 {
-    int A[] = { 9, 6, 8, 3, 7 };
+    int A[] = {1, 2, 3, 4, 5, 6, 7};
     int n = sizeof(A) / sizeof(A[0]);
     reArrange(A, n);
     for (int i = 0; i < n; i++) {cout << A[i] << " ";} cout << endl;
