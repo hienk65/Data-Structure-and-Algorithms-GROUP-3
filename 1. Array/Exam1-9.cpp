@@ -1,4 +1,18 @@
-// Sort an array of 0’s, 1’s, and 2’s (Dutch National Flag Problem)
+/* 
+Problem: 
+    Given an array containing only 0’s, 1’s, and 2’s, sort it in linear time and using constant space.
+
+Algorithm:
+    * Three variables: 
+       - i: the number of value 0 checked
+       - j: current element's index
+       - k: initial value is the last element's index
+    * Loop, check A[j]:
+       - If A[j] is valued 0: Swap it with A[i]. Increment i and j.
+       - If A[j] is valued 1: Increment j.
+       - If A[j] is valued 2: Swap it with A[k]. Decrement k.
+*/
+
 #include <iostream>
 using namespace std;
  
@@ -51,3 +65,5 @@ int main()
  
     return 0;
 }
+
+// Time complexity: O(n)

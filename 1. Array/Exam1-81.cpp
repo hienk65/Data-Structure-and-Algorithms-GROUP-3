@@ -1,4 +1,10 @@
-// Print all combinations of positive integers in increasing order that sums to a given number
+/* 
+Problem:
+    Write code to print all combinations of positive integers in increasing order that sum to a given positive number.
+
+Algorithm: Same as 1-57.
+*/
+
 #include <iostream>
 #include <vector>
 using namespace std;
