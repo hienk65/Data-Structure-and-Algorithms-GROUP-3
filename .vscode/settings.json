@@ -12,6 +12,7 @@
         "stack": "cpp",
         "deque": "cpp",
         "vector": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "iostream": "cpp"
     }
 }

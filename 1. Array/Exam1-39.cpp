@@ -1,5 +1,14 @@
-#include <iostream>
-#include <vector>
+/*
+Problem:
+    Given an integer array, find the maximum sum of subsequence where the subsequence contains no element at adjacent positions.
+Algorithm:
+    1. Store maximum sum until index `i-2` and until index `i-1`
+    2. Start from index 2 stores the maximum sum until index `i`
+    3. Return maximum sum
+*/
+
+#include <bits/stdc++.h>
+//#include <vector>
 using namespace std;
  
 int maxSum(vector<int> const &numbers)

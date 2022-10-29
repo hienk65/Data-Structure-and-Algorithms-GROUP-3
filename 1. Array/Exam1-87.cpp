@@ -1,3 +1,12 @@
+/*
+Problem:
+    Given an integer array, find the maximum sum of subsequence where the subsequence contains no element at adjacent positions.
+Algorithm:
+    1. Create a struct inter and a stack <inter> s
+    2. compareInter and mergeInter
+    3. Return maximum sum
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -22,7 +31,7 @@ void mergeInter(inter arr[], int n)
 			s.push(top);
 		}
 	}
-	cout << "\n The Merged inters are: ";
+	cout << "The Merged inters are: ";
 	while (!s.empty()) {
 		inter t = s.top();
 		cout << "[" << t.start << "," << t.end << "] ";
