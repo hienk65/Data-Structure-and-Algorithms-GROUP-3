@@ -1,4 +1,18 @@
-// Print all combinations of numbers from 1 to `n` having sum `n`
+/* 
+Problem:
+    Given a positive integer n, print all combinations of numbers between 1 and n having sum n.
+
+Algorithm:
+    * Variables:
+       - out: array
+       - n: the current recursive sum
+       - i (j): the value to push in the array and pop out later
+    * Recursive function, parameter i and n:
+       - If n is equal to 0: Print result array.
+       - For j from i to n: Push j in the array. Call the recursive function with element j and sum (n-j). 
+         Then pop j out of array.
+*/
+
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -45,3 +59,5 @@ int main()
  
     return 0;
 }
+
+// Time complexity: O(a^n)

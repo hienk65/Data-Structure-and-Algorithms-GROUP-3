@@ -1,4 +1,21 @@
-// Find maximum sum path involving elements of given arrays
+/*
+Problem: 
+    Given two sorted arrays of integers, find a maximum sum path involving elements of both arrays whose sum is maximum. 
+    We can start from either array, but we can switch between arrays only through its common elements.
+
+Algorithm:
+    * Variables:
+       - i and j: current index of array X and Y
+       - sum_x: the sum of elements between two common elements in X
+       - sum_y: the sum of elements between two common elements in Y
+       - result
+    1. Loop, compare X[i] and Y[j]:
+       - If X[i] is less than Y[j]: Add X[i] to sum_x. Increment i.
+       - If Y[j] is less than X[i]: Add Y[j] to sum_y. Increment j.
+       - If X[i] is equal to Y[j]: Add max(sum_x, sum_y) and X[i] to result. Increment i and j. Reset sum_x and sum_y.
+    2. Loop, process the remaining elements of X or Y.
+*/
+
 #include <iostream>
 using namespace std;
  
@@ -12,10 +29,7 @@ int MaxSumPath(int X[], int Y[], int m, int n)
 {
     int result = 0;
     int sum_x = 0, sum_y = 0;
-    // sum_x is the sum before common element of array X
-    // sum_y is the sum before common element of array Y
-    // result += max(sum_x,sum_y) + common element
-
+    
     // 'i' and 'j' are the current array index of X and Y
     int i = 0, j = 0;
  
@@ -46,7 +60,7 @@ int MaxSumPath(int X[], int Y[], int m, int n)
             i++;
         }
  
-        else    // if (X[i] == Y[j]) aka common element
+        else    // if (X[i] == Y[j])
         {
             // takes the maximum sum and adds the current common element
             result += max(sum_x, sum_y) + X[i];
@@ -59,7 +73,6 @@ int MaxSumPath(int X[], int Y[], int m, int n)
         }
     }
     
-    // When done the above 'while' loop:
     // process the remaining elements of X
     while (i < m) {
         sum_x += X[i++];
@@ -86,3 +99,5 @@ int main()
  
     return 0;
 }
+
+// Time complexity: O(m+n)
