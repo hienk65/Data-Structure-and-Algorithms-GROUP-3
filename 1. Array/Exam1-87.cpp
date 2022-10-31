@@ -1,10 +1,10 @@
 /*
 Problem:
-    Given an integer array, find the maximum sum of subsequence where the subsequence contains no element at adjacent positions.
+    Given a set of intervals, print all non-overlapping intervals after merging the overlapping intervals.
 Algorithm:
     1. Create a struct inter and a stack <inter> s
-    2. compareInter and mergeInter
-    3. Return maximum sum
+    2. compareInter check i.start 
+	3. mergeInter and while loop to print
 */
 
 #include <bits/stdc++.h>

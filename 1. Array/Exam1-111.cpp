@@ -1,3 +1,12 @@
+/*
+Problem:
+    Given a set of intervals, print all non-overlapping intervals after merging the overlapping intervals.
+Algorithm:
+    1. Create a struct inter and a stack <inter> s
+    2. compareInter check i.start 
+	3. mergeInter and while loop to print
+*/ 
+
 #include <iostream>
 #include <algorithm>
 #include <queue>
